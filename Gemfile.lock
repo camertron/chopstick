@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/cdutro/workspace/twitter-cldr-rails
+GIT
+  remote: git@github.com:twitter/twitter-cldr-rails.git
+  revision: 1da71b67754d609218b3f29f081f73f4ae916f7a
   specs:
     twitter_cldr_rails (1.6.2)
       railties (~> 3.1)
