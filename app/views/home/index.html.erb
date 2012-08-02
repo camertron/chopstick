@@ -1,0 +1,9 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    var formatter = new TwitterCldr.DateTimeFormatter();
+    $("p#date").html(formatter.format(new Date(), {format: "date_time", type: "full"}));
+  });
+</script>
+
+<p id="date"></p>
+<p><%= Chopstick::Application.config.assets.paths.join("<br/>").html_safe %></p>
