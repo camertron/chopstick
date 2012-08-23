@@ -1,16 +1,12 @@
-PATH
-  remote: /Users/cdutro/workspace/twitter-cldr-js
+GIT
+  remote: git@github.com:twitter/twitter-cldr-rails.git
+  revision: 524f0050cb5bd9f8f3f24259a8652eb5fb2054d3
+  branch: add_js
   specs:
-    twitter_cldr_js (1.0.0)
-      coffee-script (~> 2.2.0)
-      json (>= 1.1.9)
-      mustache (~> 0.99.4)
-      railties (~> 3.1)
-      rake (~> 0.9.2.2)
-      ruby_parser (~> 2.3.1)
-      therubyracer (~> 0.9.10)
-      twitter_cldr (~> 1.8.0)
-      uglifier (~> 1.2.4)
+    twitter_cldr_rails (1.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      twitter_cldr_js (~> 1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -115,8 +111,18 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    twitter_cldr (1.8.0)
+    twitter_cldr (1.8.1)
       json (>= 1.1.9)
+    twitter_cldr_js (1.0.0)
+      coffee-script (~> 2.2.0)
+      json (>= 1.1.9)
+      mustache (~> 0.99.4)
+      railties (~> 3.1)
+      rake (~> 0.9.2.2)
+      ruby_parser (~> 2.3.1)
+      therubyracer (~> 0.9.10)
+      twitter_cldr (~> 1.8.0)
+      uglifier (~> 1.2.4)
     tzinfo (0.3.33)
     uglifier (1.2.6)
       execjs (>= 0.3.0)
@@ -132,5 +138,5 @@ DEPENDENCIES
   rails (= 3.2.6)
   sass-rails (~> 3.2.3)
   sqlite3
-  twitter_cldr_js!
+  twitter_cldr_rails!
   uglifier (>= 1.0.3)
