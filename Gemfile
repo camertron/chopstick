@@ -9,7 +9,8 @@ gem 'sqlite3'
 
 gem 'json'
 
-gem "twitter_cldr_rails", :git => "git@github.com:twitter/twitter-cldr-rails.git", :require => "twitter_cldr/rails"
+# gem "twitter_cldr_rails", :git => "git@github.com:twitter/twitter-cldr-rails.git", :require => "twitter_cldr/rails"
+gem "twitter_cldr_js", :path => "/Users/cdutro/workspace/twitter-cldr-js", :require => "twitter_cldr/js"
 
 # Gems used only for assets and not required
 # in production environments by default.
