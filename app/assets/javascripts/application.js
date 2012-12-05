@@ -14,4 +14,4 @@
 //= require jquery_ujs
 //= require_tree .
 
-//= require twitter_cldr/twitter_cldr_ja
+//= require twitter_cldr/ja

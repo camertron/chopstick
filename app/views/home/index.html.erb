@@ -5,5 +5,9 @@
   });
 </script>
 
+<%= localized_form_for Post.new, :url => "/" do |f| %>
+	<%= f.date_select :updated_at, :prompt => true %>
+<% end %>
+
 <p id="date"></p>
 <p><%= Chopstick::Application.config.assets.paths.join("<br/>").html_safe %></p>

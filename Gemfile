@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '3.2.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,7 +8,8 @@ gem 'rails', '3.2.6'
 gem 'sqlite3'
 
 gem 'json'
-gem 'twitter_cldr_rails', :git => "git@github.com:twitter/twitter-cldr-rails.git", :branch => "add_js", :require => "twitter_cldr/rails"
+gem 'twitter_cldr_js', :path => "/Users/legrandfromage/workspace/twitter-cldr-js", :require => "twitter_cldr/js"
+gem 'twitter_cldr_rails', :path => "/Users/legrandfromage/workspace/twitter-cldr-rails", :require => "twitter_cldr/rails"
 
 # Gems used only for assets and not required
 # in production environments by default.
